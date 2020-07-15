@@ -11,7 +11,7 @@ li {
 }
 
 .name {
-    color: red;
+    color: lightslategray;
     text-align: center;
     font-size: 7rem;
 }
@@ -23,10 +23,11 @@ li {
 }
 
 .topic {
-    color: red;
+    color: lightslategray;
     text-align: center;
     font-size: 2.5rem;
     padding: 15px;
+    text-decoration: underline;
 }
 
 .text {
