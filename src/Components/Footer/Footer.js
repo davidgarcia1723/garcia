@@ -1,6 +1,5 @@
 import React from 'react';
 import './Footer.css';
-import { NavLink } from 'react-router-dom';
 
 class Footer extends React.Component {
     render() {
@@ -13,18 +12,12 @@ class Footer extends React.Component {
                 <link rel="stylesheet" href="https://use.fontwesome.com/releases/v5.4.1/css/all.css" />
                 </head>
                 <footer id="main-footer">
-                <ul class="footerpages">
-                    <li><NavLink exact={true} to="/">Home</NavLink></li>
-                    <li><NavLink exact={true} to="/Work">Work</NavLink></li>
-                    <li><NavLink exact={true} to="/Resume">Resume</NavLink></li>
-                    <li><NavLink exact={true} to="/Contact">Contact</NavLink></li>
-                </ul>
                 <div class="social">
-                    <a class="social-icon" href="https://www.facebook.com/">
+                    <a class="social-icon" href="https://github.com/davidgarcia1723">
                         <i class="fab fa-github"></i></a>
                     <a class="social-icon divider" href="https://www.twitter.com/">
                         <i class="fab fa-twitter"></i></a>
-                    <a class="social-icon" href="https://www.linkedin.com/">
+                    <a class="social-icon" href="https://www.linkedin.com/in/garcia--david/">
                         <i class="fab fa-linkedin-in"></i></a>
                 </div>
                     <p>Garcia &copy; 2020, All Rights Reserved</p>

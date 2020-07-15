@@ -61,13 +61,12 @@ const initialState = {
       return (
           <div>
             <div>
-                <section>
-                    <div className="hero-image--contact">
-                    <div className="container-hero">
-                        <h1><span>Contact me</span></h1>
-            </div>
-                     </div>
-                 </section>
+            <div class="hero-image--contact">
+                    <div class="hero-text--contact">
+                        <h1>Contact Me</h1>
+                        <p>Let's Connect.</p>
+                    </div>
+                </div>
                  </div>
         <form className="container-form" onSubmit={this.handleSubmit}>
             <label for="name">Name:</label>
@@ -99,8 +98,8 @@ const initialState = {
           <label for="message">Enter Message Here:</label>
           <div> 
             <textarea 
-              cols="100" rows="20"  name="message"
-              placeholder="Enter message here!"
+              cols="50" rows="10"  name="message"
+              placeholder="Enter message here."
               value={this.state.message}
               onChange={this.handleChange}>
             </textarea>

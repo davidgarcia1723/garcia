@@ -1,7 +1,26 @@
+/* Hero */
+.hero-image--work {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/images/Work-Hero.jpg") no-repeat center fixed;
+    background-size: cover;
+  }
+  
+  .hero-text--work {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+
+/* Cards */
 .card-container {
     display: grid;
     grid-template-columns: repeat(3, 2fr);
     background-color: black;
+    padding-top: 10%;
 }
 .card {
     flex-wrap: wrap;
@@ -13,7 +32,7 @@
 }
 .card img {
     height: 15rem;
-    width: 20rem;
+    width: 25rem;
 }
 .card h1 {
     font-size: 28px;

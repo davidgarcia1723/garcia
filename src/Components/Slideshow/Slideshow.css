@@ -2,6 +2,8 @@
     text-align: center;  
     padding: 2rem;
     background-color: black;
+    
+    
   }
    
   .slides .slick-prev,
@@ -14,10 +16,11 @@
   
   .slides {
     position: relative;
+    
   }
   
   .slides img {
-      margin: auto;
+     margin: auto;
   }
 
   .slides .slick-prev,

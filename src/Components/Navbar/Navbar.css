@@ -7,16 +7,20 @@
 
 .container-nav {
     margin: auto;
-    max-width: 90%;
     overflow: auto;
     padding: 0 20px;
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
 }
+
 #navbar {
     font-size: 1.5rem;
     background: black;
     color: white;
     overflow: auto;
-    font-style: "https://fonts.googleapis.com/css?family=Montserrat&display=swap";
+    font-style: "https://fonts.googleapis.com/css?family=Montserrat&display=swap";  
 }
 #navbar h1 {
     float: left;
@@ -41,13 +45,6 @@
     border-radius: 15px;
 }
 
-/* .blue {
-    color: blue;
-}
-
-.red {
-    color: red;
-} */
 
 @media screen and (max-width: 600px) {
     #navbar ul li a {

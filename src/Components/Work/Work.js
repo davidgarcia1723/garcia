@@ -19,6 +19,12 @@ class Work extends React.Component {
         
         return (
             <div>
+                <div class="hero-image--work">
+                    <div class="hero-text--work">
+                        <h1>Work</h1>
+                        <p>Some of the projects I have worked on.</p>
+                    </div>
+                </div>
                 <div className="card-container">
                     {data.map( (Website) => {
                         if ( type === "site" ) {

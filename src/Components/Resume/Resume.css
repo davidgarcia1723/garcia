@@ -5,6 +5,9 @@ li {
 /* Resume */
 .resume {
     background-color: black;
+    padding-top: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 .name {
@@ -28,14 +31,36 @@ li {
 
 .text {
     color: white;
-    text-align: center;
     font-size: 1.5rem;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .job {
     color: white;
     text-align: center;
     font-size: 1.75rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.exp {
+    display: flex;
+    width: 100%; 
+    justify-content: space-between;
+}
+.exp p {
+    
+    padding-left: 10%;
+}
+
+.skills {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    margin-left: 15%;
+}
+
+.skills img {
+    height: 10rem;
+    width: 10rem;
 }

@@ -18,35 +18,49 @@ class Resume extends React.Component {
                     <li><b>Road To Hire Coding Fellowship</b> - Fort Mill, SC - February 2020 to July 2020</li>
                 </ul>
                 <br />
-                <h2 className="topic">Languages / Frameworks / Libraries</h2>
-                <ul className="text">
-                    <li>HTML/CSS</li>
-                    <br />
-                    <li>JavaScript</li>
-                    <br />
-                    <li>React</li>
-                    <br />
-                    <li>Node.js</li>
-                </ul>
+                <h2 className="topic">Skills</h2>
+                <div className="skills">
+                    <img src="Icons/HTML.png" alt="HTML" />
+                    <img src="Icons/CSS.png" alt="CSS" />
+                    <img src="Icons/JS.png" alt="JavaScript" />
+                    <img src="Icons/Node.png" alt="Node" />
+                    <img src="Icons/React.png" alt="React" />
+                    <img src="Icons/MySQL.png" alt="MySQL" />
+                </div>
                 <br />
                 <h2 className="topic">Work Experience</h2>
-                <h2 className="job">Machine Operator - Daumar Industries - 9/19-1/20</h2>
+                <div className="exp">
+                    <h2 className="job">Machine Operator - Daumar Industries</h2>
+                    <p className="text">9/19-1/20</p>
+                </div>
                 <br />
                 <p className="text">Organized and executed opening of new flexographic printing facility.</p>
                 <br />
-                <h2 className="job">Sales Representative - Hendrick Automotive Group - 5/19-9/19</h2>
+                <div className="exp">
+                    <h2 className="job">Sales Representative - Hendrick Auto Group</h2>
+                    <p className="text">5/19-9/19</p>
+                </div>
                 <br />
                 <p className="text">Advised customers on deciding which product was best suited for their needs. </p>
                 <br />
-                <h2 className="job">Assistant General Manager - Blaze Fast Fire'd Pizza - 1/19-5/19</h2>
+                <div className="exp">
+                    <h2 className="job">Assistant General Manager - Blaze Pizza</h2>
+                    <p className="text"> 1/19-5/19</p>
+                </div>
                 <br />
                 <p className="text">Recruited and mentored new team members, as well as leading day to day operations.</p>
                 <br />
-                <h2 className="job">Supervisor - Cava/Zoe's Kitchen - 8/17-1/19</h2>
+                <div className="exp">
+                    <h2 className="job">Supervisor - Cava/Zoe's Kitchen</h2>
+                    <p className="text">8/17-1/19</p>
+                </div>
                 <br />
                 <p className="text">Developed schedules for all team members, as well as leading day to day operations.</p>
                 <br />
-                <h2 className="job">Senior Game Advisor/Keyholder - Gamestop - 8/14-8/17</h2>
+                <div className="exp">
+                    <h2 className="job">Senior Game Advisor/Keyholder - Gamestop</h2>
+                    <p className="text">8/14-8/17</p>
+                </div>
                 <br />
                 <p className="text">Operated day to day operations including bank deposits and keeping track of inventory.</p> 
                 <br />
