@@ -50,8 +50,8 @@ li {
     width: 100%; 
     justify-content: space-between;
 }
+
 .exp p {
-    
     padding-left: 10%;
 }
 
@@ -64,4 +64,96 @@ li {
 .skills img {
     height: 10rem;
     width: 10rem;
+}
+
+.pdf {
+    color: lightslategray;
+    font-size: 1.5rem;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+/* Media Queries */
+@media screen and (max-width: 375px) {
+    .resume {
+        padding-top: 20%;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+    .name {
+        font-size: 4rem;
+    }
+
+    .title {
+        font-size: 1rem;
+    }
+
+    .text {
+        font-size: 1rem;
+    }
+
+    .job {
+        font-size: 1rem;
+    }
+
+    .skills {
+        grid-template-columns: repeat(2, 2fr);
+        margin-left: 10%;
+    }
+
+    .skills img {
+        height: 4rem;
+        width: 4rem;
+    }
+
+    .pdf {
+        color: lightslategray;
+        font-size: 1.5rem;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .resume {
+        padding-top: 20%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .name {
+        font-size: 4rem;
+    }
+
+
+    .title {
+        font-size: 1.5rem;
+    }
+
+    .text {
+        font-size: 1rem;
+    }
+
+    .job {
+        font-size: 1rem;
+    }
+
+    .skills {
+        grid-template-columns: repeat(3, 2fr);
+        margin-left: 10%;
+    }
+
+    .skills img {
+        height: 5rem;
+        width: 5rem;
+    }
+
+    .pdf {
+        color: lightslategray;
+        font-size: 1.5rem;
+        margin-left: 37%;
+        margin-right: 35%;
+    }
+    
 }

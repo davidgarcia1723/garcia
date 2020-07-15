@@ -7,17 +7,13 @@ class Navbar extends React.Component {
     return (
         <div>
             <head>
-            <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet" />
-            <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
-            integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous" />
-            <link rel="stylesheet" href="https://use.fontwesome.com/releases/v5.4.1/css/all.css" />
             </head>
         <header>
         <nav id="navbar">
             <div className="container-nav">
-                <h1><img src="./images/Rose.png" alt="flowerwall"></img></h1>
-                <ul>
-                    <li>
+                <h1><NavLink exact={true} to="/"><img src="./images/Rose.png" alt="flowerwall"></img></NavLink></h1>
+                <ul class="ul--navLinks">
+                    <li className="home-btn">
                         <NavLink exact={true} to="/">Home</NavLink>
                     </li>
                     <li>
@@ -37,5 +33,12 @@ class Navbar extends React.Component {
         )   
     };
 };
+    // const hamburgerIcon = document.querySelector(".hamburger--container");
+    // const navBar = document.querySelector(".navbar");
+
+    // hamburgerIcon.addEventListener('click', () => {
+    // navBar.classList.toggle("change")
+// })
+
 
 export default Navbar;

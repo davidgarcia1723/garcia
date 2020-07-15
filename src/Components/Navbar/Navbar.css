@@ -1,9 +1,4 @@
 /* Nav Bar */
-.controller{
-    display: inline-block;
-    float: left;
-    padding-right: 5px;
-}
 
 .container-nav {
     margin: auto;
@@ -19,8 +14,7 @@
     font-size: 1.5rem;
     background: black;
     color: white;
-    overflow: auto;
-    font-style: "https://fonts.googleapis.com/css?family=Montserrat&display=swap";  
+    overflow: auto; 
 }
 #navbar h1 {
     float: left;
@@ -45,11 +39,31 @@
     border-radius: 15px;
 }
 
+/* Media Queries */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 375px) {
+    .home-btn {
+        display: none;
+    }
+
+    #navbar {
+        font-size: 1.5rem;
+    }
+
+    #navbar img {
+        height: 2rem;
+    }
+
     #navbar ul li a {
         display: inline-block;
-        padding: 10px 20px;
+        padding: 5px;
         text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .home-btn {
+        display: none;
     }
 }

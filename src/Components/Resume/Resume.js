@@ -9,7 +9,7 @@ class Resume extends React.Component {
                 <h2 className="title">Software Developer</h2>
                 <br />
                 <h2 className="topic">Objective</h2>
-                <p className="text">I am an experienced individual with skills in management and training others. My passion is learning new material and methods and teaching what I know to others.</p>
+                <p className="text">I am an innovative problem solver and eager learner, looking to further my passion for technology as a Software Developer. </p>
                 <br />
                 <h2 className="topic">Education</h2>
                 <ul className="text">
@@ -64,8 +64,10 @@ class Resume extends React.Component {
                 <br />
                 <p className="text">Operated day to day operations including bank deposits and keeping track of inventory.</p> 
                 <br />
-                <h2 className="topic">References available upon request</h2>           
+                <h2 className="topic">References available upon request</h2>
+                <a className="pdf" href="Resume - David Garcia.pdf">PDF of Resume</a>           
                 </div>
+                
         )
         }
     }

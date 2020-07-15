@@ -30,3 +30,18 @@
     z-index: 1;
   }
   
+
+/* Media Queries */
+
+@media screen and (max-width: 600px) {
+  .slideshow {
+      display: none;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .slideshow {
+      display: none;
+  }
+  
+}

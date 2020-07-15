@@ -6,12 +6,16 @@ import Work from './Components/Work/Work';
 import Resume from './Components/Resume/Resume';
 import Contact from './Components/Contact/Contact';
 import Footer from './Components/Footer/Footer';
+import ScrollToTop from './Components/Scroll/Scroll';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <Router> 
-      <head>
+    <Router>
+      <ScrollToTop />
+        <head>
+          <title>Garcia</title>
+          <meta name="Garcia"></meta>
           <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet" />
         </head>
       <div>

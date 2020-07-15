@@ -49,3 +49,17 @@
     border: solid .5px black;
     border-radius: .25px;
 }
+
+/* Media Queries */
+@media screen and (max-width: 600px) {
+    .card-container {
+        grid-template-columns: repeat(1, 2fr);
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .card-container {
+        grid-template-columns: repeat(1, 2fr);
+    }
+    
+}
