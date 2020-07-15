@@ -25,7 +25,7 @@ const initialState = {
     validate = () => {
       let nameError = "";
       let emailError = "";
-      let messageError = "";
+      // let messageError = "";
   
       if (!this.state.name) {
         nameError = "Name cannot be blank";
@@ -35,9 +35,9 @@ const initialState = {
         emailError = "Invalid email.";
       }
 
-      if (!this.state.message) {
-        messageError = "Message is required.";
-      }
+      // if (!this.state.message) {
+      //   messageError = "Message is required.";
+      // }
   
       if (emailError || nameError) {
         this.setState({ emailError, nameError });
