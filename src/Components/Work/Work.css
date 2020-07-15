@@ -1,0 +1,32 @@
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    background-color: black;
+}
+.card {
+    flex-wrap: wrap;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    justify-content: center;
+}
+.card img {
+    height: 15rem;
+    width: 20rem;
+}
+.card h1 {
+    font-size: 28px;
+}
+
+.card p {
+    font-size: 18px;
+}
+
+.btn {
+    background-color: white;
+    color: black;
+    padding: .5rem;
+    border: solid .5px black;
+    border-radius: .25px;
+}

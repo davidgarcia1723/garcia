@@ -1,0 +1,29 @@
+.slideshow {
+    text-align: center;  
+    padding: 2rem;
+    background-color: black;
+  }
+   
+  .slides .slick-prev,
+  .slides .slick-next {
+    position: absolute;
+    top: 50%;
+    z-index: 1;
+  }
+  
+  
+  .slides {
+    position: relative;
+  }
+  
+  .slides img {
+      margin: auto;
+  }
+
+  .slides .slick-prev,
+  .slides .slick-next {
+    position: absolute;
+    top: 50%;
+    z-index: 1;
+  }
+  

@@ -1,0 +1,75 @@
+[
+    {
+        "img" : "images/Gateway.png",
+        "name" : "Gateway Revision",
+        "description" : "Revised version of original Gateway Project.",
+        "alt" : "gateway",
+        "type" : "site",
+        "link" : "https://codepen.io/DavidGarcia_/project/full/ALWvEJ",
+        "github" : "https://codepen.io/DavidGarcia_/project/editor/ALWvEJ"
+    },
+    {
+        "img" : "images/Hotel-Delfino.png",
+        "name" : "Hotel App",
+        "description" : "One of the earliest Projects I worked on in Road to Hire.",
+        "alt" : "hotel",
+        "type" : "site",
+        "link" : "https://hotel-delfino-davidgarcia.netlify.app/",
+        "github" : "https://github.com/davidgarcia1723/Hotel-App"
+    },
+    {
+        "img" : "images/Navbar.png",
+        "name" : "Animated Navigation Bar",
+        "description" : "First project in which we used animations.",
+        "alt" : "navbar",
+        "type" : "site",
+        "link" : "https://animated-navbar-davidgarcia.netlify.app/",
+        "github" : "https://github.com/davidgarcia1723/Animated-Nav"
+    },
+    {
+        "img" : "images/TicTacToe.png",
+        "name" : "Tic-Tac-Toe",
+        "description" : "Functioning Tic-Tac-Toe game.",
+        "alt" : "tictactoe",
+        "type" : "site",
+        "link" : "https://tictactoe-davidgarcia.netlify.app/",
+        "github" : "https://github.com/davidgarcia1723/tictactoe"
+    },
+    {
+        "img" : "images/Switch.png",
+        "name" : "Switch It Up",
+        "description" : "Ecommerce project created using React",
+        "alt" : "nintendoswitch",
+        "type" : "site",
+        "link" : "https://switch-it-up.netlify.app/AboutUs",
+        "github" : "https://github.com/davidgarcia1723/ecommerce-two-point-oh"
+    },
+    {
+        "img" : "images/Hotel-Delfino.png",
+        "name" : "To-Do List",
+        "description" : "One of the earliest Projects I worked on in Road to Hire.",
+        "alt" : "to-dolist",
+        "type" : "site",
+        "link" : "https://todolist-davidgarcia.netlify.app/",
+        "github" : "https://github.com/davidgarcia1723/todo-list"
+    },
+    {
+        "img" : "images/Hotel-Delfino.png",
+        "name" : "Speech Recognition",
+        "description" : "One of the earliest Projects I worked on in Road to Hire.",
+        "alt" : "speechrecognition",
+        "type" : "site",
+        "link" : "https://speech-recognition-davidgarcia.netlify.app/",
+        "github" : "https://github.com/davidgarcia1723/Speech-Recognition"
+    },
+    {
+        "img" : "images/Hotel-Delfino.png",
+        "name" : "Github Cards",
+        "description" : "One of the earliest Projects I worked on in Road to Hire.",
+        "alt" : "githubcards",
+        "type" : "site",
+        "link" : "https://github-cards-davidgarcia.netlify.app/",
+        "github" : "https://github.com/davidgarcia1723/react-github-cards"
+    }
+    
+]

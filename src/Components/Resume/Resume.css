@@ -1,0 +1,41 @@
+li {
+    list-style: none;
+}
+
+/* Resume */
+.resume {
+    background-color: black;
+}
+
+.name {
+    color: red;
+    text-align: center;
+    font-size: 7rem;
+}
+
+.title {
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.topic {
+    color: red;
+    text-align: center;
+    font-size: 2.5rem;
+    padding: 15px;
+}
+
+.text {
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.job {
+    color: white;
+    text-align: center;
+    font-size: 1.75rem;
+}
