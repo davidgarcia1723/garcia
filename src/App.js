@@ -11,6 +11,9 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 function App() {
   return (
     <Router> 
+      <head>
+          <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet" />
+        </head>
       <div>
         <Navbar />
         <Route exact path ="/" component = {Home} />
