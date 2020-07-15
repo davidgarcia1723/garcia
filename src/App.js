@@ -15,7 +15,6 @@ function App() {
       <ScrollToTop />
         <head>
           <title>Garcia</title>
-          <meta name="Garcia"></meta>
           <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet" />
         </head>
       <div>

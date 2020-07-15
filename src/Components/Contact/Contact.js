@@ -68,7 +68,7 @@ const initialState = {
                     </div>
                 </div>
                  </div>
-        <form className="container-form" onSubmit={this.handleSubmit}>
+        <form className="container-form" action="https://formsubmit.co/davidgarcia1723@gmail.com" method="POST" onSubmit={this.handleSubmit}> 
             <label for="name">Name:</label>
           <div>
             <input

@@ -20,7 +20,7 @@
     {
         "img" : "images/Navbar.png",
         "name" : "Animated Navigation Bar",
-        "description" : "First project in which we used animations.",
+        "description" : "First project in which we used animations and created a hamburger bar.",
         "alt" : "navbar",
         "type" : "site",
         "link" : "https://animated-navbar-davidgarcia.netlify.app/",
@@ -29,7 +29,7 @@
     {
         "img" : "images/TicTacToe.png",
         "name" : "Tic-Tac-Toe",
-        "description" : "Functioning Tic-Tac-Toe game.",
+        "description" : "Functioning Tic-Tac-Toe game created by using React.",
         "alt" : "tictactoe",
         "type" : "site",
         "link" : "https://tictactoe-davidgarcia.netlify.app/",
@@ -38,7 +38,7 @@
     {
         "img" : "images/Switch.png",
         "name" : "Switch It Up",
-        "description" : "Ecommerce project created using React",
+        "description" : "Ecommerce project, latest interation using React.",
         "alt" : "nintendoswitch",
         "type" : "site",
         "link" : "https://switch-it-up.netlify.app/AboutUs",
@@ -47,7 +47,7 @@
     {
         "img" : "images/ToDoList.png",
         "name" : "To-Do List",
-        "description" : "To-Do list created using React.",
+        "description" : "Simple To-Do list, early example of using React.",
         "alt" : "to-dolist",
         "type" : "site",
         "link" : "https://todolist-davidgarcia.netlify.app/",
