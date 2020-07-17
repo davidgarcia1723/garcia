@@ -104,7 +104,7 @@ class Contact extends React.Component {
                     </div>
 
 
-                    <label for="Message">Message:</label>
+                    <label for="Message">Message</label>
                     <br />
                     <textarea id="Message" name="Message" value={this.state.subject} onChange={this.handleChange} placeholder="Write message.." style={{ height: '200px' }}></textarea>
                     <div style={{ fontSize: 15, color: "red" }}>
