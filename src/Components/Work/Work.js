@@ -23,6 +23,10 @@ class Work extends React.Component {
                     <div class="hero-text--work">
                         <h1>Work</h1>
                         <p>Some of the projects I have worked on.</p>
+                        <br />
+                        <span></span>
+                        <span></span>
+                        <span></span>
                     </div>
                 </div>
                 <div className="card-container">

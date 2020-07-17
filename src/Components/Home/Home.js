@@ -12,6 +12,10 @@ class Home extends React.Component {
                         <img src="/images/David.png" alt="david" />
                         <h1>I am David Garcia</h1>
                         <p>Software Developer</p>
+                        <br />
+                        <span></span>
+                        <span></span>
+                        <span></span>
                     </div>
                 </div>
                 <div className="home">

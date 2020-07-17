@@ -11,10 +11,10 @@ li {
 }
 
 .name {
-    color: red;
+    color: darkred;
     text-align: center;
     font-size: 7rem;
-    opacity: 80%;
+    
 }
 
 .title {
@@ -24,12 +24,12 @@ li {
 }
 
 .topic {
-    color: red;
+    color: darkred;
     text-align: center;
     font-size: 2.5rem;
     padding: 15px;
     text-decoration: underline;
-    opacity: 80%;
+    
 }
 
 .text {
@@ -69,11 +69,11 @@ li {
 }
 
 .pdf {
-    color: red;
+    color: darkred;
     font-size: 1.5rem;
     margin-left: 40%;
     margin-right: 40%;
-    opacity: 80%;
+    
 }
 
 /* Media Queries */

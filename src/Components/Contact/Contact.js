@@ -65,6 +65,10 @@ const initialState = {
                     <div class="hero-text--contact">
                         <h1>Contact Me</h1>
                         <p>Let's Connect.</p>
+                        <br />
+                        <span></span>
+                        <span></span>
+                        <span></span>
                     </div>
                 </div>
                  </div>
