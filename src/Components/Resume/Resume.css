@@ -11,9 +11,10 @@ li {
 }
 
 .name {
-    color: lightslategray;
+    color: red;
     text-align: center;
     font-size: 7rem;
+    opacity: 80%;
 }
 
 .title {
@@ -23,11 +24,12 @@ li {
 }
 
 .topic {
-    color: lightslategray;
+    color: red;
     text-align: center;
     font-size: 2.5rem;
     padding: 15px;
     text-decoration: underline;
+    opacity: 80%;
 }
 
 .text {
@@ -41,8 +43,8 @@ li {
     color: white;
     text-align: center;
     font-size: 1.75rem;
-    margin-left: 5%;
-    margin-right: 5%;
+    /* margin-left: 5%;
+    margin-right: 5%; */
 }
 
 .exp {
@@ -67,10 +69,11 @@ li {
 }
 
 .pdf {
-    color: lightslategray;
+    color: red;
     font-size: 1.5rem;
     margin-left: 40%;
     margin-right: 40%;
+    opacity: 80%;
 }
 
 /* Media Queries */

@@ -37,7 +37,7 @@ class Resume extends React.Component {
                 <p className="text">Organized and executed opening of new flexographic printing facility.</p>
                 <br />
                 <div className="exp">
-                    <h2 className="job">Sales Representative - Hendrick Auto Group</h2>
+                    <h2 className="job">Sales Representative - Hendrick Auto</h2>
                     <p className="text">5/19-9/19</p>
                 </div>
                 <br />
@@ -45,7 +45,7 @@ class Resume extends React.Component {
                 <br />
                 <div className="exp">
                     <h2 className="job">Assistant General Manager - Blaze Pizza</h2>
-                    <p className="text"> 1/19-5/19</p>
+                    <p className="text">1/19-5/19</p>
                 </div>
                 <br />
                 <p className="text">Recruited and mentored new team members, as well as leading day to day operations.</p>
@@ -58,14 +58,14 @@ class Resume extends React.Component {
                 <p className="text">Developed schedules for all team members, as well as leading day to day operations.</p>
                 <br />
                 <div className="exp">
-                    <h2 className="job">Senior Game Advisor/Keyholder - Gamestop</h2>
+                    <h2 className="job">Keyholder - Gamestop</h2>
                     <p className="text">8/14-8/17</p>
                 </div>
                 <br />
                 <p className="text">Operated day to day operations including bank deposits and keeping track of inventory.</p> 
                 <br />
                 <h2 className="topic">References available upon request</h2>
-                <a className="pdf" href="Resume - David Garcia.pdf">PDF of Resume</a>           
+                <a className="pdf" href="Resume - David Garcia.pdf"><b>PDF of Resume</b></a>           
                 </div>
                 
         )
