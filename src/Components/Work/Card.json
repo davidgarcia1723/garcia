@@ -20,7 +20,7 @@
     {
         "img" : "images/Navbar.png",
         "name" : "Animated Navigation Bar",
-        "description" : "First project in which we used animations and created a hamburger bar.",
+        "description" : "Project where we used animations and created a hamburger bar.",
         "alt" : "navbar",
         "type" : "site",
         "link" : "https://animated-navbar-davidgarcia.netlify.app/",
@@ -80,5 +80,4 @@
         "link" : "https://igrebuild.netlify.app/",
         "github" : "https://github.com/davidgarcia1723/igrebuild"
     }
-    
 ]
