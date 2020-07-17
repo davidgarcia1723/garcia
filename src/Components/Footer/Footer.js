@@ -21,6 +21,7 @@ class Footer extends React.Component {
                         <i class="fab fa-linkedin-in"></i></a>
                 </div>
                     <p>Garcia &copy; 2020, All Rights Reserved</p>
+                    <p className="update">Last Updated: 7/17/2020</p>
                 </footer>
             </div>
         )

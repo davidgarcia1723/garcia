@@ -40,6 +40,10 @@
     margin: 0 25px;
 }
 
+.update {
+    font-size: 1rem;
+}
+
 @media screen and (max-width: 375px) {
     #main-footer {
         font-size: 1rem;
@@ -47,5 +51,7 @@
 }
 
 @media screen and (max-width: 768px) {
-    
+    #main-footer {
+        font-size: 1rem;
+    }
 }
